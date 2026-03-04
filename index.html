@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Rohan Choudhary</h1>
+    <p>Software Developer</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+
+    <h2>My Hobby: Coding</h2>
+
+    <p>
+        I enjoy coding because it improves my logical thinking and helps me
+        build useful applications.
+    </p>
+
+    <h3>Benefits:</h3>
+
+    <ol id="benefitList">
+        <li>Improves logical thinking</li>
+        <li>Builds problem-solving skills</li>
+        <li>Gives hands-on experience</li>
+    </ol>
+
+    <br>
+
+    <!-- Input and Button -->
+    <input type="text" id="benefitInput" placeholder="Enter new benefit">
+    <button onclick="addBenefit()">Add</button>
+
+</section>
+
+<!-- About -->
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am a final year B.Tech CSE student. I have basic knowledge of
+        Python, Java, React.js, SQL and Web Technologies. I enjoy building
+        simple projects and learning new technologies.
+    </p>
+
+</section>
+
+<!-- Projects -->
+<section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Student Management System</h3>
+        <p>Project to manage student records using .NET and MongoDB.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Simple website created using HTML and CSS.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Todo Management System</h3>
+        <p>Todo app created using React and MongoDB.</p>
+    </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <form onsubmit="showMessage()">
+
+        <input type="text" placeholder="Enter your name" required>
+
+        <input type="email" placeholder="Enter your email" required>
+
+        <textarea placeholder="Enter your message" required></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+    <p>Connect with me:</p>
+
+    <a href="https://www.linkedin.com/in/rohan-choudhary-a716b034b" target="_blank">
+        LinkedIn
+    </a>
+
+    |
+
+    <a href="https://github.com/rohn17" target="_blank">
+        GitHub
+    </a>
+
+    <p id="time"></p>
+
+    <p>© 2026 Rohan Choudhary</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
