@@ -1,0 +1,120 @@
+/* body style */
+
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(to right,#e0f7fa,#e1bee7);
+}
+
+
+/* header */
+header{
+    background:linear-gradient(90deg,#6a11cb,#2575fc);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    margin:0;
+}
+
+header p{
+    margin-top:5px;
+}
+
+
+/* navigation */
+nav{
+    background:#333;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+
+
+/* sections */
+section{
+    background:white;
+    margin:25px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#5e35b1;
+}
+
+
+/* project cards */
+.project-card{
+    background:linear-gradient(to right,#f8bbd0,#bbdefb);
+    padding:20px;
+    margin-top:15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:scale(1.03);
+}
+
+
+/* input fields */
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* buttons */
+button{
+    background:#5e35b1;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3949ab;
+}
+
+
+/* ordered list */
+ol li{
+    margin:8px 0;
+}
+
+/* footer */
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+footer a{
+    color:#90caf9;
+    text-decoration:none;
+    margin:0 5px;
+}
+
+footer a:hover{
+    color:#ffd54f;
+}
